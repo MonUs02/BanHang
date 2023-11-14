@@ -1,0 +1,204 @@
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 100%;
+    line-height: 16px;
+    font-family: 'Sometype Mono', monospace;
+    box-sizing: border-box;
+    background-size: cover;
+}
+/*responsive*/
+.grid{
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full--width{
+    width: 100%;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+/*Test*/
+.grid__column-2{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 16.6667%;
+}
+.grid__column-2-4{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+}
+.grid__column-10{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 83.3334%;
+}
+/* Button styles */
+.btn {
+    min-width: 120px;
+    height: 36px;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    padding: 0 12px;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 16px;
+}
+.btn.btn--normal:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.btn.btn--size-s{
+    height: 30px;
+    font-size: 14px;
+}
+.btn.btn.btn--primary{
+    color: #fff0d3;
+    background-color: #002f49;
+}
+/*Cart*/
+.cart{
+    padding: 50px 0;
+}
+.cart-top-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart-top{
+    height: 2px;
+    width: 70%;
+    background-color: #dbdbdb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 100px;
+}
+.cart-top-item{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.cart-top-item i{
+    color: #ddd;
+}
+.cart-top-cart{
+    border: 1px solid #002f49;
+}
+.cart-top-cart i{
+    color: #002f49;
+}
+.cart-content-left{
+    flex: 2;
+    padding: 0 10px 0 20px;
+}
+.cart-content-left table{
+    width: 90%;
+    text-align: center;
+}
+.cart-content-left table th{
+    padding-bottom: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #002f49;
+    border-collapse: collapse;
+    border-bottom: 2px solid #dbdbdb;
+}
+.cart-content-left table p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #002f49;
+}
+.cart-content-left table input{
+    width: 30px;
+}
+.cart-content-left table span{
+    display: block;
+    width: 20px;
+    height: 20px; 
+    border: 1px solid #dbdbdb;
+    cursor: pointer;
+}
+.cart-content-left td{
+    padding: 20px 0;
+    border-bottom: 2px solid #dbdbdb;
+}
+.cart-content-left td:first-child img{
+    width: 80px;
+}
+.cart-content-left td:nth-child(2){
+    max-width: 130px;
+}
+.cart-content-right{
+    flex: 1;
+    padding-left: 12px;
+    border-left: 2px solid #dbdbdb;
+}
+.cart-content-right table{
+    width: 95%;
+}
+.cart-content-right table th{
+    padding-bottom: 30px;
+    font-size: 18px;
+    color: #002f49;
+    border-collapse: collapse;
+    border-bottom: 2px solid #dbdbdb;
+}
+.cart-content-right table td{
+    font-size: 16px;
+    font-weight: 500;
+    color: #002f49;
+    padding: 6px 0;
+}
+.cart-content-right tr:nth-child(4) td{
+    border-bottom: 2px solid #dbdbdb;
+}
+.cart-content-right tr td:last-child{
+    text-align: right;
+}
+.cart-content-right-button{
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+}
+.cart-content-right-button a{
+    padding: 0 18px;
+    height: 35px;
+    cursor: pointer;
+}
+.cart-content-right-button a:first-child{
+    border: 2px solid #fff0d3;
+    font-weight: 600;
+    
+}
+.cart-content-right-button a:last-child{
+    border: 2px solid #fff0d3;
+    font-weight: 600;
+}
+.cart-content-right-button a:first-child:hover{
+    background-color: #025a89;
+}
+.cart-content-right-button a:last-child:hover{
+    background-color: #025a89;
+}
+.cart-content-right-login{
+    margin-top: 20px;
+}
+.cart-content-right-login p{
+    font-size: 14px;
+    text-align: center;
+    color: #002f49;
+}
